@@ -6,7 +6,7 @@ Readme
 
 <https://bw-ju.de>
 
-Inhalt - Ordnerpaket-Notiz
+Inhalt - cpp-Kurs-Notiz
 --------------------------
 		code/*              Quellcode
     css/*               Webdesign anpassen
@@ -66,36 +66,36 @@ Git
 ### Repository clonen
 
     # Github
-    $THEMA      = "Ordnerpaket-Notiz" # Repository
+    $THEMA      = "cpp-Kurs-Notiz" # Repository
     $ADRESSE    = "https://github.com/ju1-eu"
     git clone $ADRESSE/${THEMA}.git 
 
     # HD
     $HD    = "C:\repos\notizenWin10"
-    $THEMA = "Ordnerpaket-Notiz" # Repository
+    $THEMA = "cpp-Kurs-Notiz" # Repository
     git clone $HD/${THEMA}.git 
 
     # USB
     $USB   = "E:\repos\notizenWin10"    
-    $THEMA = "Ordnerpaket-Notiz" # Repository
+    $THEMA = "cpp-Kurs-Notiz" # Repository
     git clone $USB/${THEMA}.git 
 
     # RPI
     $RPI   = "\\RPI4\nas\repos\notizenWin10"    
-    $THEMA = "Ordnerpaket-Notiz" # Repository
+    $THEMA = "cpp-Kurs-Notiz" # Repository
     git clone $RPI/${THEMA}.git 
 
 ### Repository neu anlegen
 
     # Github 
-    $THEMA   = "Ordnerpaket-Notiz" # Repository
+    $THEMA   = "cpp-Kurs-Notiz" # Repository
     $ADRESSE = "https://github.com/ju1-eu"
     git remote add origin $ADRESSE/${THEMA}.git
     git push --set-upstream origin master
 
     # backupHD
     $HD  = "C:\repos\notizenWin10"
-    $THEMA = "Ordnerpaket-Notiz" # Repository
+    $THEMA = "cpp-Kurs-Notiz" # Repository
     $LESEZ = "backupHD"
     git clone --no-hardlinks --bare . $HD/${THEMA}.git
     git remote add $LESEZ $HD/${THEMA}.git
@@ -103,7 +103,7 @@ Git
 
     # backupUSB
     $USB   = "E:\repos\notizenWin10"    
-    $THEMA = "Ordnerpaket-Notiz" # Repository
+    $THEMA = "cpp-Kurs-Notiz" # Repository
     $LESEZ = "backupUSB"
     git clone --no-hardlinks --bare . $USB/${THEMA}.git
     git remote add $LESEZ $USB/${THEMA}.git
@@ -111,7 +111,7 @@ Git
 
     # backupRPI
     $RPI   = "\\RPI4\nas\repos\notizenWin10"   
-    $THEMA = "Ordnerpaket-Notiz" # Repository
+    $THEMA = "cpp-Kurs-Notiz" # Repository
     $LESEZ = "backupRPI"
     git clone --no-hardlinks --bare . $RPI/${THEMA}.git
     git remote add $LESEZ $RPI/${THEMA}.git
